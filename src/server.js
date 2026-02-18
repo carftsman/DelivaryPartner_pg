@@ -7,7 +7,7 @@ app.get('/',(req,res)=>{
         sucess : true,
         message : "testing"
     })
-})
+});
 
 app.listen(4545 ,()=>{
     console.log('server start....')
